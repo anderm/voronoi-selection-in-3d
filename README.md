@@ -23,7 +23,7 @@ Voronoi takes an array of 2D coordinates as input and generates areas around eac
   - Hit Play and hold right click to pan around the scene. Focused nodes will turn blue.
   - Hold shift and left click to drag the selected node
   - Be amazed! 
-  - Change number of nodes generated and spwan radius in the VoronoiScript under Graph 
+  - Change number of nodes generated and spawn radius in the VoronoiScript under Graph 
 
 # Applications
   - **Complex Medical Data** - This implementation is used by Weill Cornell Medicine to interact with complex Cancer Drug Networks. The application is called HoloGraph and can be downloaded from the Microsoft Store. For more information https://elementolab.github.io/holograph/ 
