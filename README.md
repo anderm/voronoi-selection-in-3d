@@ -11,7 +11,7 @@ http://bl.ocks.org/nbremer/61cd485e399b6a71d5fb2b1072fbc6c1 (with Voronoi select
 
 # How it works
 
-Voronoi takes an array of 2D coordinates as input and generates areas around each of these points while making sure they do not intersect with each other. This creates great hit targets around points and allows for an error margin when selecting in a 3D environment. 
+Voronoi takes an array of 2D coordinates as input and generates areas around each of these points while making sure they do not intersect with each other. This creates great hit targets around points and allows for a margin of error when selecting in a 3D environment. 
 
 # Required Software
 
