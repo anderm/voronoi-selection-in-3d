@@ -17,6 +17,8 @@ http://bl.ocks.org/nbremer/61cd485e399b6a71d5fb2b1072fbc6c1 (with Voronoi select
 
 Voronoi takes an array of 2D coordinates as input and generates areas around each of these points while making sure they do not intersect with each other. This creates great hit targets around points and allows for a margin of error when selecting in a 3D environment. 
 
+![voronoi-selection](https://user-images.githubusercontent.com/10086264/32808714-0bfed696-c962-11e7-85b7-d309b635f25b.jpg)
+
 # Required Software
 
   - **Unity 5.6.4f1** or higher
