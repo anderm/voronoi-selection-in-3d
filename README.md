@@ -1,6 +1,10 @@
 # Voronoi selection in 3D
 
-This is a Voronoi selection implementation for 3D scenarios. It greatly improves the user experience for complex data visualization and allows users to easily select specific nodes and interact with them. Voronoi is a well-known method for 3D tessellation and for 2D graph selection. See the following samples to understand the power of Voronoi:
+This is a Voronoi selection implementation for 3D scenarios. It greatly improves the user experience for complex data visualization and allows users to easily select specific nodes and interact with them. 
+
+![voronoi-gif](https://user-images.githubusercontent.com/10086264/32808600-9ce5663a-c961-11e7-84dd-63f074613379.gif)
+
+Voronoi is a well-known method for 3D tessellation and for 2D graph selection. See the following samples to understand the power of Voronoi:
 
 http://bl.ocks.org/nbremer/d5ef6c58f85aba2da48b (no Voronoi selection)
 ![image](https://user-images.githubusercontent.com/10086264/32611020-725bdb16-c532-11e7-900e-0486de44b2f5.png)
@@ -12,6 +16,8 @@ http://bl.ocks.org/nbremer/61cd485e399b6a71d5fb2b1072fbc6c1 (with Voronoi select
 # How it works
 
 Voronoi takes an array of 2D coordinates as input and generates areas around each of these points while making sure they do not intersect with each other. This creates great hit targets around points and allows for a margin of error when selecting in a 3D environment. 
+
+![voronoi-selection](https://user-images.githubusercontent.com/10086264/32808714-0bfed696-c962-11e7-85b7-d309b635f25b.jpg)
 
 # Required Software
 
