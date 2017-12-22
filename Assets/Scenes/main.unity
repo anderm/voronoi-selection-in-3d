@@ -138,6 +138,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   NumberOfNodes: 30
   SpawnRadius: 1
+  SphereRadius: 5
 --- !u!4 &616168580
 Transform:
   m_ObjectHideFlags: 0
@@ -163,6 +164,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   WeightDistributor: 0.8
+  SphereCastRadius: 0.3
 --- !u!1 &1104814244
 GameObject:
   m_ObjectHideFlags: 0

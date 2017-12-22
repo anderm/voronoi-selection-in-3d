@@ -13,6 +13,10 @@ public class VoronoiSelection : Singleton<VoronoiSelection> {
     [Tooltip("Constant weight distributor for each Voronoi site. [0 - 1.0] value range.")]
     public double WeightDistributor = 0.8;
 
+    // We are using a constant for the sphere cast radius. 0.3 meters is enough for most scenarios.
+    // Increase this value if your objects are very far away from each other. 
+    public float SphereCastRadius = 0.3f; 
+
     private List<Edge> edges;
     private Rectf bounds;
     private Voronoi voronoi;
@@ -37,7 +41,7 @@ public class VoronoiSelection : Singleton<VoronoiSelection> {
             var layerMask = 1 << 8;
 
             // Cast a sphere to see what nodes are in radius of the head orientation
-            var hitObjects = Physics.SphereCastAll(GazeManager.Instance.GazeOrigin, 0.3f, GazeManager.Instance.GazeTransform.forward, GazeManager.Instance.MaxGazeCollisionDistance, layerMask);
+            var hitObjects = Physics.SphereCastAll(GazeManager.Instance.GazeOrigin, SphereCastRadius, GazeManager.Instance.GazeTransform.forward, GazeManager.Instance.MaxGazeCollisionDistance, layerMask);
             var voronoiNodes = new List<Vector2>();
 
             if (hitObjects.Length > 0)
